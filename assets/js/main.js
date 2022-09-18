@@ -23,7 +23,7 @@ if (navClose) {
 const navlink = document.querySelectorAll(".nav__link");
 
 function linkAction() {
-  const navMenu = document.getElementById("nav-menu");
+  const navMenu = document.getElementById("nav__menu");
   // When we click on each nav__link, we remove the show-menu class
   navMenu.classList.remove("show-menu");
 }
